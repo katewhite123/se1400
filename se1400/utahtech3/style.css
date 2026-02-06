@@ -28,7 +28,7 @@ h2{
 }
 
 dt{
-    color: #BA1C21;
+    color: #003058;
     font-weight: bold;
 }
 .ut {
@@ -49,4 +49,7 @@ footer {
 }
 #homehero {
     background-image: url(images/homehero.jpg);
+}
+h3{
+ color: #003058;
 }
