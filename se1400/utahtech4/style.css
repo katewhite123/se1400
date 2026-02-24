@@ -133,7 +133,7 @@ nav a { text-decoration: none;
     grid-column: 2 / -2;
  }
  main{
-    background-color:#ffffff
+    background-color:#ffffff;
     grid-row: 4 /5;
     grid-column: 2 / -2;
  }
