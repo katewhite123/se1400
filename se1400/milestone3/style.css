@@ -5,7 +5,7 @@
 }
 
    header{
-   height: 150px;
+   height: 120px;
     grid-row: 1 / 2;
     grid-column: 2 /-2;
     background-color: #e63115;
@@ -21,21 +21,21 @@ height: 75px;
 
 
 .hero {
-   height: 200px;
+   height: 190px;
     grid-row: 3 / 4;
     grid-column: 1 /10;
     background-color: #f5e9a1;
 }
 
 main{
-height: 300px;
+height: 350px;
 grid-row: 5 / 6;
 grid-column: 1 /10;
 background-color: rgb(252, 176, 254);
 }
 
 footer{
-   height: 40px;
+   height: 35px;
     grid-row: 6 / 7;
     grid-column: 1 /10;
     background-color: #1a055e;
