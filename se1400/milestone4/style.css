@@ -74,7 +74,7 @@ background-color: white;
 }
 .col-3 {
     display: flex;
-    margin: 10px;
+    margin: 0px;
 }
 .col-3 .col {
     width:100%;
@@ -89,8 +89,21 @@ footer{
     grid-row: 6 / 7;
     grid-column: 1 /10;
     background-color: #B33D4D;
+    color: white;
+    font-style: italic;
+    font-size: .70rem;
+
 }
 
-p{
-    text-align: center;
+footer ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 0rem;
+    display: block;
+    text-align:center;
 }
