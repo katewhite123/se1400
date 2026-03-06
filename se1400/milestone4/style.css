@@ -85,9 +85,9 @@ color:#0C2C40;
 }
 
 .col img{
-    width:100%;
-    height:100%;
-    object-fit:cover; 
+    width: max-content;
+    height: max-content;
+    object-fit: contain;
 }
 
 .col h1 a{
