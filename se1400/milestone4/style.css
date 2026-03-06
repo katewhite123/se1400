@@ -82,12 +82,14 @@ color:#0C2C40;
     height: 300px;
     background-color: #0C2C40;
     margin: 3%;
+    align-content: center;
 }
 
 .col img{
-    width: max-content;
-    height: max-content;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
+    align-content: center;
 }
 
 .col h1 a{
