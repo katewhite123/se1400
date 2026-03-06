@@ -84,6 +84,13 @@ background-color: white;
     margin: 3%;
 }
 
+.col-3 .col p{
+    text-align: center;
+}
+
+.col-3 .col p2{
+}
+
 footer{
    height: 35px;
     grid-row: 6 / 7;
