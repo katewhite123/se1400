@@ -88,8 +88,11 @@ background-color: white;
     text-align: center;
 }
 
-.col-3 .col p2{
+.col img{
+    width: 100%; 
+    object-fit:contain; 
 }
+
 
 footer{
    height: 35px;
