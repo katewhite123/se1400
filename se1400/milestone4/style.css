@@ -58,8 +58,8 @@ nav a:hover{
     background-image: url(Hero.jpg);
     background-color: aqua;
     background-size: cover;
-    height: 190px;
-    background-position: 50% 30%;
+    height: 300px;
+    background-position: 100% 75%;
     background-repeat: no-repeat;
     grid-row: 3 / 4;
     grid-column: 1 /10;
@@ -74,9 +74,14 @@ background-color: white;
 }
 .col-3 {
     display: flex;
+    margin: 10px;
 }
 .col-3 .col {
     width:100%;
+    height: 300px;
+    background-color: #0C2C40;
+    color: white;
+    margin: 3%;
 }
 
 footer{
@@ -84,4 +89,8 @@ footer{
     grid-row: 6 / 7;
     grid-column: 1 /10;
     background-color: #B33D4D;
+}
+
+p{
+    text-align: center;
 }
