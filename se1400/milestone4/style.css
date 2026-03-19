@@ -26,6 +26,7 @@ nav{
     grid-row: 2 / 3;
     grid-column: 1 / 9;
     background-color: #F5B4A2;
+    position: sticky;
 }
 
 nav a { 
