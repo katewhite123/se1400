@@ -27,6 +27,8 @@ nav{
     grid-column: 1 / 9;
     background-color: #F5B4A2;
     position: sticky;
+    top: 0;
+    z-index: 5;
 }
 
 nav a { 
@@ -57,7 +59,7 @@ nav a:hover{
 
 .hero {
     margin: 0;
-    background-image: url(Hero.jpg);
+    background-image: url(images/Hero.jpg);
     background-color: aqua;
     background-size: cover;
     height: 600px;
@@ -65,11 +67,18 @@ nav a:hover{
     background-repeat: no-repeat;
     grid-row: 3 / 4;
     grid-column: 1 /9;
+    position: relative;
 }
  .hero a{
     text-decoration: none;
     color: white;
     background-color: #F5B4A2;
+    font-size: 25px;
+}
+.hero div {
+    position:absolute;
+    bottom: 75px;
+    right: 50px;
 }
 
 main{
@@ -88,6 +97,7 @@ color:#0C2C40;
     height: 600px;
     background-color: #0C2C40;
     margin: 3%;
+    text-align: center;
 }
 
 .col img{
@@ -126,8 +136,4 @@ footer ul{
     display: block;
     text-align:center;
     position: sticky bottom;
-}
-
-@media screen  and (max-width; 500px){
-    
 }
