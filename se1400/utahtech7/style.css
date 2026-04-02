@@ -207,7 +207,7 @@ nav a { text-decoration: none;
 td, th{
     padding:5px;
     border: 1px solid #424242;
-
+    border-collapse: collapse;
 }
 
 td{
