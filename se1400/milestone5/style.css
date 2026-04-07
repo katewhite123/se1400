@@ -17,7 +17,8 @@
     header a{
         text-decoration: none;
         color: #0C2C40;
-        font-family: monospace;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
     }
 
 nav{
@@ -85,6 +86,7 @@ grid-column: 1 /9;
 background-color: white;
 color:#0C2C40;
 }
+
 .col-3 {
     display: flex;
 }
@@ -185,4 +187,4 @@ nav{
     margin-right: auto;
     margin-top: 3%;
 }
- }
+}
