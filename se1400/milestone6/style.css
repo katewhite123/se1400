@@ -58,8 +58,7 @@ nav a:hover{
 
 .hero {
     margin: 0;
-    background-image: url(images/Hero.jpg);
-    background-color: aqua;
+    background-image: url(images/Nature4.JPG);
     background-size: cover;
     height: 600px;
     background-position: 100% 75%;
@@ -74,6 +73,12 @@ nav a:hover{
     background-color: #F5B4A2;
     font-size: 35px;
 }
+.hero a:hover{
+ background-color: #0C2C40;
+    width: 100%;
+    height: auto;
+}
+
 .hero div {
     position:absolute;
     bottom: 75px;
@@ -87,28 +92,26 @@ background-color: white;
 color:#0C2C40;
 }
 
-.col-3 {
-    display: flex;
-}
-.col-3 .col {
-    width:100%;
-    background-color: #0C2C40;
-    margin: 3%;
-    text-align: center;
+main p{
+    line-height: 2.0;
 }
 
-.col img{
+#Gallery{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+}
+
+#Gallery img{
     width: 80%;
     height: auto;
-    object-fit: contain;
-    background-position: center;
+  transition: transform 0.3s ease; 
 }
 
-.col h1 a{
-    color: white;
-    text-decoration: none;
-    text-align: right;
+#Gallery img:hover {
+  transform: scale(1.2);
 }
+
 
 footer{
    height: auto;
@@ -135,6 +138,8 @@ footer ul{
     position: sticky bottom;
 }
 
+
+
 @media only screen and (max-width: 1100px) {
     #wrapper {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
@@ -145,7 +150,7 @@ footer ul{
     nav {
         grid-column: 1/ 5;
         grid-row: 2/3;
-        position: sticky;
+        position: static;
         background-color: #F5B4A2;
     }
     nav ul {
@@ -156,19 +161,23 @@ footer ul{
         grid-row: 2/3;
         height: auto;
     }
-
     .hero div {
     position:absolute;
     bottom: 0px;
     right: 80px;
 }
-
 .hero a{
     font-size: 20px;
 }
-
+#Gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
-
+#Gallery img {
+    width: 80%;
+    height: auto;
+ }
  @media only screen and (max-width: 768px){
 nav{
     grid-column: 1/ -2;
@@ -177,16 +186,15 @@ nav{
     background-color: #F5B4A2;
 }
 
-.col-3 {
-    display: flex;
-    flex-flow: column;
-    height: auto;
-    width: 100%;
+#Gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
-.col-3 .col{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
+#Gallery img{
+    width: 80%;
+    height: auto;
 }
+
 }
