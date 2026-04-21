@@ -148,12 +148,15 @@ grid-template-rows: auto;
 
 #Gallery img{
     width: 80%;
-    height: auto;
   transition: transform 0.3s ease; 
 }
 
 #Gallery img:hover {
   transform: scale(1.2);
+}
+
+#Gallery div h4{
+    width: 80%;
 }
 
 footer{
