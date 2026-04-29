@@ -147,8 +147,8 @@ grid-template-rows: auto;
 }
 
 #Gallery img{
-    width: 80%;
-  transition: transform 0.3s ease; 
+width: 80%;
+transition: transform 0.3s ease; 
 }
 
 #Gallery img:hover {
@@ -167,7 +167,6 @@ footer{
     color: white;
     font-style: italic;
     font-size: .70rem;
-
 }
 
 footer ul{
